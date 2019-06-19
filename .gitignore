@@ -1,0 +1,10 @@
+﻿# ⛔️ Gitignore
+
+## 🌏 Global
+*.log
+
+## 🛠 Tools
+### Jetbrains's IDEA Family
+.idea/
+out/
+*.iml
