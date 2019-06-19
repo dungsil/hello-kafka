@@ -1,7 +1,7 @@
 # Kafka 설치하기
 **Kafka 2.2.1, zookeeper 3.4.13을 기준으로 작성하였습니다.**
 
-테스트 용도로 로컬PC에 설치하는 걸 기준으로 작성
+테스트 용도로 로컬PC에 설치하는 걸 기준으로 작성, 추후 실무에서 사용하며 필요한 설정 등 내용 추가
 
 ## 다운로드
 [Kafka 2.12](https://www.apache.org/dyn/closer.cgi?path=/kafka/2.2.1/kafka_2.12-2.2.1.tgz) 다운로드 
