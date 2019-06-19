@@ -25,6 +25,7 @@
 ```bash
 .\bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --topic [토픽 이름] --replication-factor [복제 갯수] --partitions [파티션 갯수]
 ```
+ - ```bootstarp-server```는 카프카(브로커)의 URI 작성
  - ```replication-factor```은 주키퍼 수 만큼 설정?
  - ```partitions```는 컨슈머 갯수 만큼 설정?
 
@@ -34,24 +35,27 @@
 ```bash
 .\bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
 ```
+ - ```bootstarp-server```는 카프카(브로커)의 URI 작성
 
 한 토픽에 대한 자세한 정보:
 ```bash
 .\bin\windows\kafka-topics.bat --describe --bootstrap-server localhost:9092 --topic [토픽 이름]
 ```
+ - ```bootstarp-server```는 카프카(브로커)의 URI 작성
 
 ## 메시지 생성하기
 ```bash
 .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic [토픽 이름]
 ```
+ - ```broker-list```는 카프카(브로커)의 URI 목록 작성
+
 실행 후 나오는 ```>```에서 작성된 글을 엔터단위로 메시지를 보내는 거 같음
- - 샘플용 프로듀서?
 
 ## 메시지 처리하기
 ```bash
 .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic [토픽 이름] --from-beginning
 ```
- - 샘플용 컨슈머?
+ - ```bootstarp-server```는 카프카(브로커)의 URI 작성
 
 ## 출처
  - http://kafka.apache.org/documentation/
