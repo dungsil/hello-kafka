@@ -66,6 +66,9 @@
  	* 브로커가 컨슈머가 어떤 메시지를 처리하는지 계산하고 추척하지 않아도 됨
  	* 메시지를 쌓아두었다가 주기적으로 처리(batch) 가능
 
+## 설치
+[INSTALLATION](./docs/INSTALLATION.md)
+
 ## 출처
  - https://ko.wikipedia.org/wiki/발행-구독_모델
  - https://epicdevs.com/17
